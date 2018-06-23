@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>vue-Day2</title>
+</head>
+
+<body>
+  <div id="app">
+
+    <ul>
+      <li v-for=" food in foodList">{{food.name}} : $ {{food.price * food.discount}} </li>
+    </ul>
+  </div>
+
+  <script src="../lib/Vue.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
