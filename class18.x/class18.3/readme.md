@@ -26,7 +26,7 @@ img:"照片的路径"
 ```
 ---
 
-添加相对应的类
+添加相对应的类---> 错误的写法！！
 ```
 <a :class="active: isActive" :href="url">点我</a>
 data: {
@@ -42,10 +42,11 @@ isActive: true
 
 添加相对应的类
 ```
+需要花括号引用。
 <a :class="{active: isActive}" :href="url">点我</a>
 data: {
 url: "http://www.baidu.com/",
 isActive: true
 }
 ```
-需要花括号引用。
+
