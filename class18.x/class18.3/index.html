@@ -13,8 +13,7 @@
 
 <body>
   <div id="app">
-    <a v-bind:href="url">点我
-    </a>
+     <a :class="{active: isActive}" :href="url">点我</a>
   </div>
 
   <script src="../lib/Vue.js"></script>
